@@ -1,0 +1,72 @@
+.typing-loader{
+    margin: 15px auto !important;
+    width: 6px;
+    height: 6px;
+    float: left;
+    margin-left: 0px!important;
+    -webkit-animation: line 1s linear infinite alternate !important;
+    -moz-animation: line 1s linear infinite alternate !important;
+    animation: line 1s linear infinite alternate !important;
+}
+@-webkit-keyframes line{
+    0%{
+
+        background-color: rgb(6, 197, 166);
+        box-shadow: 12px 0px 0px 0px rgba(0,0,0,0.2),
+        24px 0px 0px 0px rgba(0,0,0,0.2);
+
+    }
+    25%{
+        background-color: rgba(6, 197, 166, 0.4);
+        box-shadow: 12px 0px 0px 0px rgba(0,0,0,2),
+        24px 0px 0px 0px rgba(0,0,0,0.2);
+
+    }
+    75%{ background-color: rgba(6, 197, 166, 0.4);
+        box-shadow: 12px 0px 0px 0px rgba(0,0,0,0.2),
+        24px 0px 0px 0px rgba(0,0,0,2);
+
+    }
+}
+
+@-moz-keyframes line{
+    0%{
+
+        background-color: rgba(0,0,0, 1);
+        box-shadow: 12px 0px 0px 0px rgba(0,0,0,0.2),
+        24px 0px 0px 0px rgba(0,0,0,0.2);
+
+    }
+    25%{
+        background-color: rgba(0,0,0, 0.4);
+        box-shadow: 12px 0px 0px 0px rgba(0,0,0,2),
+        24px 0px 0px 0px rgba(0,0,0,0.2);
+
+    }
+    75%{ background-color: rgba(0,0,0, 0.4);
+        box-shadow: 12px 0px 0px 0px rgba(0,0,0,0.2),
+        24px 0px 0px 0px rgba(0,0,0,2);
+
+    }
+}
+
+@keyframes line{
+    0%{
+
+        background-color: rgba(0,0,0, 1);
+        box-shadow: 12px 0px 0px 0px rgba(0,0,0,0.2),
+        24px 0px 0px 0px rgba(0,0,0,0.2);
+
+    }
+    25%{
+        background-color: rgba(0,0,0, 0.4);
+        box-shadow: 12px 0px 0px 0px rgba(0,0,0,2),
+        24px 0px 0px 0px rgba(0,0,0,0.2);
+
+    }
+    75%{ background-color: rgba(0,0,0, 0.4);
+        box-shadow: 12px 0px 0px 0px rgba(0,0,0,0.2),
+        24px 0px 0px 0px rgba(0,0,0,2);
+
+    }
+}

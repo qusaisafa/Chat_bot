@@ -17,4 +17,5 @@ JS
 
 js/index.js
  
+![alt text](https://github.com/qusaisafa/Chat_bot/blob/master/pizza%20bot.PNG)
  
